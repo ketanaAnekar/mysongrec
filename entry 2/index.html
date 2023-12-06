@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>songs represented visually</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yit8fla.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yit8fla.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .song-title {
+            cursor: pointer;
+        }
+        .song-title:hover {
+            cursor: url('play_button_cursor.png'), pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+    <a href="#" class="back"> BACK</a>
+    <a href="#" class="next"> NEXT</a>
+</div>
+
+<img class="pic" src="h.png">
+    <img class="pic2" src="J.png">
+    <div class="main">
+        <div class="song">
+            <h1> SONG</h1>
+        </div>
+        <div class="recs">
+            <h1> RECS</h1>
+        </div>
+        <div class="you">
+            <h1> YOU</h1>
+        </div>
+        <div class="didnt">
+            <h1> DIDN'T</h1>
+        </div>
+        <div class="ask">
+            <h1> ASK</h1>
+        </div>
+        <div class="for">
+            <h1>FOR!</h1>
+        </div>
+    </div>
+    <div class="page1 container" id="picture-align">
+        <h1 class="song-title" onclick="toggleAudio('audio1')"> FANTASY </h1>
+        <audio id="audio1" controls style="display: none">
+            <source src="Kali Uchis, Don Toliver - Fantasy (Official Visualizer).mp3" type="audio/mp4">
+        </audio>
+    </div>
+    <div class="page2 container" id="picture-align">
+        <h1 class="song-title" onclick="toggleAudio('audio2')"> ACCEPTABLE IN THE 80'S</h1>
+        <audio id="audio2" controls style="display: none">
+            <source src="Acceptable in the 80's.mp3" type="audio/mp4">
+        </audio>
+    </div>
+    <div class="page3 container" id="picture-align">
+        <h1 class="song-title" onclick="toggleAudio('audio3')"> ENTER SANDMAN</h1>
+        <audio id="audio3" controls style="display: none">
+            <source src="Metallica_ Enter Sandman (Official Music Video).mp3" type="audio/mp4">
+        </audio>
+    </div>
+    <script>
+        var currentAudio;
+
+        function toggleAudio(audioId) {
+            var audio = document.getElementById(audioId);
+
+            if (currentAudio && currentAudio !== audio) {
+                currentAudio.pause();
+            }
+
+            if (audio.paused) {
+                audio.play();
+                currentAudio = audio;
+            } else {
+                audio.pause();
+                currentAudio = null;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+body {
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: italic; 
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    overflow-x: hidden;
+}
+.back{
+    color: white;
+    position: relative;
+    top: 120px;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(0, 255, 34);
+    font-size: medium;
+}
+.pic{
+    position: relative;
+    left: -250px;
+    top: 50px;
+    transform: rotate(-15deg);
+    width: 500px;
+    height: 300px;
+}
+.pic2{
+    position: relative;
+    left: 250px;
+    top: 50px;
+    transform: rotate(15deg);
+    width: 400px;
+    height: 250px;
+}
+.main{
+    position: relative;
+    top: -140px;
+
+}
+.song{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(255, 0, 195);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top:150px;
+}
+.recs{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(0, 255, 110);
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top: 100px;
+
+}
+.you{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(246, 255, 0);
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top: 50px;
+}
+.didnt{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(255, 0, 0);
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top: 0px;
+}
+.ask{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(43, 0, 255);
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top: -50px;
+}
+.for{
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: italic; 
+    color: rgb(255, 174, 0);
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: -550px;
+    top: -100px;
+}
+.page1{
+    font-family: "eight", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    background-color: rgb(0, 255, 140);  
+    border: 10px dotted red;
+    background-size: 1920px 1080px; 
+    color: rgb(0, 136, 255);
+    text-align: center;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    top: -1200px;
+}
+.page2{
+    color: rgb(255, 255, 0);
+    font-family: "jeanne-moderno-geometrique", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 250%;
+    text-align: center;
+    background-color: red; 
+    border: 10px solid rgb(255, 0, 234);
+    border-radius: 50%;;
+    background-size: 1920px 1080px;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    top: -1200px;
+}
+.page3{
+    color: rgb(255, 0, 0);
+    font-family: "kiln-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-align: center;
+    background-color: aqua;
+    border: 10px dashed orange;
+    background-size: 1920px 1080px;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    top: -1200px;
+    
+ }
+ .song-title{
+    position: relative;
+    top: 80px;
+
+ }
+ 
+
+#text-position{
+    position: relative;
+    top: 200px;
+}
+#picture-align{
+    position: relative;
+    left: 390px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+.container:hover .page1{
+    opacity: 1;
+}  
+
+
+.header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px;
+}
+
+.back{
+    color: aliceblue;
+    position: relative;
+    top: 0px;
+    left: -340px;
+
+}
+.next{
+    float:right;
+    position: relative;
+    right: -340px;
+
+}

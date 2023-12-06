@@ -1,0 +1,15 @@
+body {
+    color: aliceblue;
+    font-family: "jeanne-moderno-geometrique", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    background-image:url('disco.gif'); background-repeat:repeat;   background-size: 1920px 1080px;}
+a {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(0, 255, 34);
+    font-size: medium;
+}
